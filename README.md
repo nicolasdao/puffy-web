@@ -1,8 +1,8 @@
 # PUFFY CORE
-
+		
 > WARNING: Only supported by NodeJS >= 13. To use this package with NodeJS 12, use the `--experimental-modules` flag.
-
-A collection of ES6 modules to help manage common programming tasks in Web project only. This package is built on top of a single dependency called [`puffy-core`](https://github.com/nicolasdao/puffy-core). All [puffy-core APIs](https://github.com/nicolasdao/puffy-core#table-of-contents) are accessible using the `puffy-web/core/` prefix (e.g., `import { batch } from 'puffy-web/core/collection'`).
+		
+A collection of ES6 modules with zero-dependencies to help manage common programming tasks in Web projects only. This package is designed to work along side [`puffy-core`](https://github.com/nicolasdao/puffy-core) which exposes an extra set of [usefull APIs](https://github.com/nicolasdao/puffy-core#table-of-contents) that are compatible with both NodeJS and native JS.
 
 ```
 npm i puffy-web
@@ -11,7 +11,7 @@ npm i puffy-web
 # Table of contents
 
 > * [APIs](#apis)
-> - [`fetch`](#fetch)
+>	- [`fetch`](#fetch)
 > * [Unit test](#unit-test)
 > * [License](#license)
 
