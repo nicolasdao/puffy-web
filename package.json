@@ -1,24 +1,23 @@
 {
-  "name": "emptyjs",
+  "name": "puffy-web",
   "version": "0.0.1",
-  "description": "",
+  "description": "A collection of ES6 modules to help manage common programming tasks in Web project only. This package is built on top of a single dependency called puffy-core.",
   "exports": {
     "./core/*": "puffy-core/*",
     "./fetch": "./src/fetch.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nicolasdao/template-emptyjs.git"
+    "url": "https://github.com/nicolasdao/puffy-web.git"
   },
   "bugs": {
-    "url": "https://github.com/nicolasdao/template-emptyjs/issues"
+    "url": "https://github.com/nicolasdao/puffy-web/issues"
   },
-  "homepage": "https://github.com/nicolasdao/template-emptyjs#readme",
+  "homepage": "https://github.com/nicolasdao/puffy-web#readme",
   "scripts": {
     "dev": "TZ=UTC NODE_ENV=dev node index.js",
     "lint": "eslint src/ test/ --fix",
-    "push": "git push --follow-tags origin master",
-    "push:npm": "git push --follow-tags origin master && npm publish",
+    "push": "git push --follow-tags origin master && npm publish",
     "rls": "standard-version --release-as",
     "start": "TZ=UTC NODE_ENV=production node index.js",
     "test": "mocha --exit",
