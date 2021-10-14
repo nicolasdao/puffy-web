@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "A collection of ES6 modules with zero-dependencies to help manage common programming tasks in Web projects only. This package is designed to work along side puffy-core which exposes an extra set of usefull APIs that are compatible with both NodeJS and native JS.",
   "exports": {
-    "./fetch": "./src/fetch.js"
+    "./fetch": "./src/fetch.js",
+    "./package.json": "./package.json"
   },
   "repository": {
     "type": "git",

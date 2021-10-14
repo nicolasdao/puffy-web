@@ -1,4 +1,4 @@
-# PUFFY CORE
+# PUFFY WEB
 		
 > WARNING: Only supported by NodeJS >= 13. To use this package with NodeJS 12, use the `--experimental-modules` flag.
 		
