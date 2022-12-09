@@ -57,7 +57,7 @@ const main = async () => {
     }` 
   })
 
-  const { status:status4, data:data4 } = await _fetch.graphql.mutate({ 
+  const { status:status4, data:data4 } = await _fetch.graphql.mutation({ 
     uri: 'http://localhost:4220/graphql', 
     headers:{}, 
     query: `{ 
