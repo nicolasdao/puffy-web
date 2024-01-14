@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/nicolasdao/puffy-web/compare/v0.1.1...v0.1.3) (2024-01-14)
+
+
+### Bug Fixes
+
+* Vulnerabilities ([d2cc21b](https://github.com/nicolasdao/puffy-web/commit/d2cc21b9e839493562560fac53407067b97e8038))
+
 ### [0.1.2](https://github.com/nicolasdao/puffy-web/compare/v0.1.1...v0.1.2) (2024-01-14)
 
 
