@@ -1,6 +1,6 @@
 {
   "name": "puffy-web",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A collection of ES6 modules with zero-dependencies to help manage common programming tasks in Web projects only. This package is designed to work along side puffy-core which exposes an extra set of usefull APIs that are compatible with both NodeJS and native JS.",
   "exports": {
     "./fetch": "./src/fetch.js",
